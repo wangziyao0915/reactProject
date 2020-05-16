@@ -1,0 +1,54 @@
+.navtop {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navtop a {
+    font-size: 28px;
+    line-height: 96px;
+    text-decoration: none;
+    position: relative;
+}
+
+.blue_white {
+    background: #005dff;
+}
+
+.blue_white a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.white_blue {
+    background: #fff;
+}
+
+.white_blue a {
+    color: #000;
+}
+
+.blue_white_active::before,
+.white_blue_active::before {
+    content: '.';
+    font-size: 0;
+    line-height: 0;
+    width: 36px;
+    height: 8px;
+    border-radius: 8px;
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+
+.blue_white_active::before {
+    color: #fff;
+    font-weight: 800;
+    background: #fff;
+}
+
+.white_blue_active::before {
+    color: #005dff;
+    background: #005dff;
+}

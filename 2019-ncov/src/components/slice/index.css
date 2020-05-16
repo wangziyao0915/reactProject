@@ -1,0 +1,6 @@
+.swiper-slide>div {
+    width: 88%;
+    margin: 0 6%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
