@@ -1,0 +1,30 @@
+.nav-cubic{
+    width: 670px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+}
+div.nav-cubic-active{
+    background-color: #eef4ff;
+    color: #005def;
+    border: 1px solid #8fb8ff;
+}
+.nav-page{
+    width: 163px;
+    height: 84px;
+    background: #f3f6f8;
+    color: #222222;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+    margin-left: 6px;
+    border-radius: 8px;
+    outline: 0;
+    padding-top: 9px;
+    font-weight: 400;
+    border: 1px solid #dfe2e4;
+
+}

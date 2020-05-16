@@ -1,0 +1,27 @@
+/*https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_qs2.png*/
+
+
+
+.qs{
+    position: relative;
+    /* top:280px;
+    left: 50px; */
+    padding-right: 34px;
+    color: #fff;
+    line-height: 40px;
+    /* display: flex;
+    align-items: center; */
+    font-weight: 300;
+    font-size: 16px;
+}
+.qs::after {
+    content: '.';
+    display:inline-block;
+    font-size: 0;
+    line-height: 0; 
+    transform: translate(0, -50%);
+    width: 24px;
+    height: 24px;
+    background: url(https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_qs2.png);
+    background-size: 100% 100%;
+}

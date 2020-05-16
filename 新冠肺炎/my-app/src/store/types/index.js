@@ -1,0 +1,5 @@
+export let CHINA_TOTAL='CHINA_TOTAL'
+export let CHINA_ADD='CHINA_ADD'
+export let TOTAL_DATA='TOTAL_DATA'
+export let AREA_TREE='AREA_TREE'
+export let TOGGLE_DIALOG='TOGGLE_DIALOG'

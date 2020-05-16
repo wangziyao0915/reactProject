@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.popout{
+    p{
+       input{
+           height: 1.03rem;
+       }
+        input:first-child{
+        //    background: chartreuse;
+            width: 45%;
+        }
+        input:nth-child(2){
+        //    background: chocolate;
+           width: 40%;
+        }
+        span{
+            text-align: center;
+            display: inline-block;
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius:50%;
+            background: burlywood;
+        }
+    }
+
+
+
+}

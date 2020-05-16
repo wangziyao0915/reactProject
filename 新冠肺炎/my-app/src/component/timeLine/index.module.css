@@ -1,0 +1,34 @@
+.item-wrap{
+    position: relative;
+    padding-left: 40px;
+    font-size: 16px;
+    /* float: left; */
+}
+.item-wrap::before{
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    width: 10px;height: 10px;
+    border-radius: 100%;
+    border: 2px solid #bbb;
+    box-sizing: border-box;
+}
+.item-wrap::after{
+    content: '';
+    position: absolute;
+    top: 20px;bottom: -20px;
+    width: 1px;
+    background: #bbb;
+    left: 10px;
+}
+.no-trail::after{
+    display: none;
+}
+.item-title{
+    height: 40px;
+    line-height: 40px;
+}
+.item-content{
+
+}

@@ -1,0 +1,10 @@
+.header-bar{
+    height: 70px;
+}
+.class-tag button{
+    margin: 0 10px;
+}
+.chart-box{
+    height: 240px;
+    border: 1px solid #eee;
+}

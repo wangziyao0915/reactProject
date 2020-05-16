@@ -1,0 +1,103 @@
+html,body{
+width: 100%;
+height: 100%;
+font-size:0.32rem;
+margin: 0;
+padding: 0;
+}
+.toll{
+    width: 100%;
+    height: 100%;
+  
+     
+        background-image: linear-gradient(to bottom right, #fdd06d, #fa34bd);
+        padding-top:5% ;
+      
+   
+}
+.head{
+   margin-bottom: 0.1rem;
+}
+.main{
+    width: 95%;
+    // height:85%;
+    background: white;
+    margin:0 auto ;
+  
+  p{
+      margin: 0 auto;
+      width: 90%;
+      height: 1.08rem;
+      background: white;
+      border-bottom:1px solid black ;
+    //   line-height: 1.08rem;
+      input{
+          width: 4.00rem;
+          height:1rem;
+          background:none;  
+          outline:none;  
+          border:none;
+      
+      }
+  }
+
+   
+}
+
+.addGrade{
+
+input{
+  width: 50%;
+  height: 0.8rem;
+ 
+  margin: 0 0.2rem;
+  border: 0;  // 去除未选中状态边框
+        outline: none; // 去除选中状态边框
+        background-color: rgba(0, 0, 0, 0);// 透明背景
+
+}
+span{
+  img{
+     margin-top: 0.2rem;
+  }
+ 
+}
+
+}
+img{
+width: 0.5rem;
+}
+
+.complete{
+width: 100%;
+height: 1.5rem;
+background: white;
+position: fixed;
+bottom: 0;
+ p{
+   width: 80%;
+   height: 0.87rem;
+   border-radius:0.43rem ;
+   background: #ffd574;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 0.87rem;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+    transform: translate3d(-50%,-50%,0);
+   
+ }
+}
+.radius{
+  width: 2rem;
+  height: 2rem;
+  border-radius:2rem;
+  background:white;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  text-align: center;
+  line-height: 1.7rem;
+  font-size: 1.5rem;
+  color: #ffbc1b;
+}
